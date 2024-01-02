@@ -11,7 +11,7 @@ jobs:
         with:
           fetch-depth: 0
       - id: files
-        uses: tj-actions/changed-files@v12.2
+        uses: tj-actions/changed-files@v41
         with:
           files: 'data'
       - name: validate
